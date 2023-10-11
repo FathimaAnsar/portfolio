@@ -1,0 +1,73 @@
+*{
+    background-color: #1c1c1c;
+    color: #f4f4f4;
+    margin: 1rem;
+  }
+  .container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .welcome-text{
+    font-size: 2rem;
+    color: #333;
+  }
+  .heading{
+    padding-top: 20px;
+  }
+  
+/* Apply styles to the navigation bar */
+nav {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: purple; /* Set the background color to purple */
+    overflow: hidden; /* Ensure the content doesn't overflow */
+    transition: all 0.25s ease-in-out;
+	  width: 100%;
+    
+  }
+  
+  /* Style the navigation links */
+  .navbar a {
+ /* Float the links to create a horizontal layout */
+    display: inline-block; /* Display links as block elements for better spacing */
+    color: pink; /* Set the text color to pink */
+    text-align: center; /* Center-align the text */
+    padding: 14px 16px; /* Add padding to create space around links */
+    text-decoration: none; /* Remove underlines from links */
+  }
+  
+  /* Change link color on hover */
+  .navbar a:hover {
+    background-color: black; /* Change the background color to black on hover */
+    color: pink; /* Change the text color back to pink on hover */
+  }
+  
+  /* Style the active link */
+  .navbar a.active {
+    background-color: black; /* Set the background color for the active link */
+    color: pink; /* Set the text color for the active link */
+  }
+  nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: right;
+}
+
+h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
